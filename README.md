@@ -1,4 +1,4 @@
-# Customer Support Analysis System with CREW AI and Gemini API
+#  CREW AI and Gemini API
 
 This system automates the analysis of customer support data using CREW AI framework and Google's gemini-2.0-flash model. It provides a multi-agent approach to analyze support data, identify bottlenecks, and generate executive reports for decision-makers.
 
