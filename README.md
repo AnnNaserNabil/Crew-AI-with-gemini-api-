@@ -1,21 +1,64 @@
 # Customer Support Analysis System with CREW AI and Gemini API
 
-This system automates the analysis of customer support data using CREW AI framework and Google's Gemini 2.5 Pro Experimental model. It provides a multi-agent approach to analyze support data, identify bottlenecks, and generate executive reports for decision-makers.
+This system automates the analysis of customer support data using CREW AI framework and Google's gemini-2.0-flash model. It provides a multi-agent approach to analyze support data, identify bottlenecks, and generate executive reports for decision-makers.
 
 ## System Overview
 
-The system consists of three specialized AI agents working together:
+This repository showcases three powerful Python programs that leverage Crew AI and Google's Gemini API for intelligent agent-based applications. Each program demonstrates different aspects of AI-powered analysis and decision-making.
 
-1. **Data Analyst Agent**
-   - Analyzes customer support data to identify trends and patterns
-   - Focuses on recurring issues and their impact
-   - Uses a custom tool to fetch support data
+## Project Overview
 
-2. **Process Optimizer Agent**
-   - Identifies bottlenecks in support processes
-   - Proposes actionable improvements
-   - Focuses on root cause analysis
+This project consists of three main programs:
 
+1. **Philosophical Analysis System**
+   - Performs deep philosophical analysis using AI agents
+   - Analyzes historical context and ethical implications
+   - Uses specialized agents for different aspects of philosophy
+
+2. **Product Feature Analysis System**
+   - Conducts comprehensive product feature analysis
+   - Integrates market research and technical feasibility analysis
+   - Provides actionable insights for product development
+
+3. **Crew AI Integration with Gemini API**
+   - Core integration layer between Crew AI and Gemini
+   - Demonstrates agent-based architecture
+   - Shows how to implement custom tools and agents
+
+## How Crew AI Works with Gemini API
+
+The system leverages Crew AI's agent-based architecture combined with Google's Gemini 2.0 Flash model to create intelligent, specialized agents that can work together to solve complex problems. Key components include:
+
+### Core Components
+
+1. **LLM Integration**
+   ```python
+   gemini_llm = LLM(
+       model='gemini/gemini-2.0-flash', 
+       api_key=gemini_api_key,
+       temperature=0.7
+   )
+   ```
+   
+2. **Custom Tools**
+   - Historical Context Analyzer
+   - Ethical Implications Analyzer
+   - Market Research Data Fetcher
+   - Technical Feasibility Analyzer
+
+3. **Agent Architecture**
+   - Specialized agents for different domains
+   - Collaborative problem-solving
+   - Task delegation and coordination
+
+### Implementation Details
+
+Each program follows a similar pattern:
+1. Initialize Gemini LLM with appropriate parameters
+2. Define custom tools for specific tasks
+3. Create specialized agents
+4. Form a crew of agents to work together
+5. Execute tasks through agent collaboration
 3. **Report Writer Agent**
    - Compiles findings into executive reports
    - Formats information for senior leadership
