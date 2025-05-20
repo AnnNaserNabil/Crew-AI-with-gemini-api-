@@ -1,6 +1,49 @@
 #  CREW AI and Gemini API
 
-This system automates the analysis of customer support data using CREW AI framework and Google's gemini-2.0-flash model. It provides a multi-agent approach to analyze support data, identify bottlenecks, and generate executive reports for decision-makers.
+## What is Crew AI?
+
+Crew AI is a powerful framework for building intelligent agent-based systems. It allows developers to create specialized AI agents that can work together collaboratively to solve complex problems. The framework provides:
+
+1. **Agent Architecture**
+   - Create independent AI agents with specialized roles
+   - Define agent behaviors and capabilities
+   - Implement agent communication and collaboration
+
+2. **Tool Integration**
+   - Create custom tools for specific tasks
+   - Define tool interfaces and functionality
+   - Enable agents to use tools effectively
+
+3. **Process Management**
+   - Coordinate multiple agents
+   - Manage task delegation
+   - Handle complex workflows
+
+## Integration with Gemini API
+
+This system leverages Google's Gemini 2.0 Flash model through the Crew AI framework. The integration provides:
+
+1. **Model Integration**
+   ```python
+   gemini_llm = LLM(
+       model='gemini/gemini-2.0-flash', 
+       api_key=gemini_api_key,
+       temperature=0.7
+   )
+   ```
+   - Uses the latest Gemini 2.0 Flash model
+   - Configurable temperature settings
+   - Secure API key management
+
+2. **Agent Capabilities**
+   - Enhanced reasoning and analysis
+   - Improved natural language understanding
+   - Better context awareness
+
+3. **Tool Enhancements**
+   - Gemini-powered tool implementations
+   - Advanced data processing
+   - Improved decision-making
 
 ## System Overview
 
